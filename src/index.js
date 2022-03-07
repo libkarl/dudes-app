@@ -22,7 +22,7 @@ class App extends React.Component{ //umožnuje přidat React App na website bez 
   //pokud chceš spustit nějaký code po vzniku komponentu, musí do svého clas přidat novou komponentu 
   componentDidMount = () => { // metoda DidMount, je komponenta ve které se kod spustí v moomentě kdy se komponent připne na DOM (asi vyrendruje na stránku)
     // ten komponent je ten input ke kterému je to dole připnuté v render() jde o lifecycle metodu, exisutuje více druh (dohledat)
-    fetch('https://api.myjson.com/bins/zg7ze')
+    fetch('http://myjson.dit.upm.es/api/bins/ft0r')
     .then(res => res.json())
     .then(json => this.setState({ characters: json }))
 
